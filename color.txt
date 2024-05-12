@@ -1,0 +1,4 @@
+hitam 000000
+orange DC5F00
+merah CF0A0A
+abu EEEEEE
