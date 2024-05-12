@@ -2,17 +2,17 @@ const projects = [
   {
     id: 1,
     title: "Website PPID Pengadilan Negeri Medan",
-    img: "/project1.png",
+    img: "./project1.png",
   },
   {
     id: 2,
     title: "Website Penerima Kerjasama UNPAB",
-    img: "/project2.jpeg",
+    img: "./project2.jpeg",
   },
   {
     id: 3,
     title: "Website Admin Portal IMAKOM UNPAB",
-    img: "/project3.png",
+    img: "./project3.png",
   }
 ]
 
