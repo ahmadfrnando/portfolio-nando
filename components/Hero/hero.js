@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section id='home' className="px-6 max-w-screen">
       <div data-aos="fade-up" className="grid mt-6  md:grid-cols-2 md:px-20 space-y-6 justify-center">
         <div className='flex bottom-0'>
-          <Image src="/pp.png" alt="Nando" width={1500} height={1200} />
+          <Image src="./pp.png" alt="Nando" width={1500} height={1200} />
         </div>
         <div className="flex items-center">
           <div className="space-y-4">
