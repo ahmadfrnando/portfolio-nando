@@ -14,27 +14,27 @@ const logo = [
     title: 'js',
   },
   {
-    link: '/php.png',
+    link: './php.png',
     title: 'php',
   },
   {
-    link: '/mysql.png',
+    link: './mysql.png',
     title: 'mysql',
   },
   {
-    link: '/reactjs.png',
+    link: './reactjs.png',
     title: 'reactjs',
   },
   {
-    link: '/nextjs.png',
+    link: './nextjs.png',
     title: 'nextjs',
   },
   {
-    link: '/vuejs.png',
+    link: './vuejs.png',
     title: 'vuejs',
   },
   {
-    link: '/laravel.png',
+    link: './laravel.png',
     title: 'laravel',
   },
 ];
