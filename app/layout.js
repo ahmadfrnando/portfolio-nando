@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='scroll-smooth focus:scroll-auto'>
+      <head>
+        <link rel="icon" href="/logonando.png" sizes="any" />
+      </head>
       <body className="bg-hitam font-sans">{children}</body>
     </html>
   );

@@ -13,7 +13,17 @@ const projects = [
     id: 3,
     title: "Website Admin Portal IMAKOM UNPAB",
     img: "./project3.png",
-  }
+  },
+  {
+    id: 4,
+    title: "E-ARCHIEVE",
+    img: "./project4.png",
+  },
+  {
+    id: 5,
+    title: "Sistem Penerimaan Peserta Didik Baru SMP",
+    img: "./project5.png",
+  },
 ]
 
 export default function ProjectSection() {
