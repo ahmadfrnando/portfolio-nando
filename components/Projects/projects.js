@@ -1,33 +1,33 @@
 const projects = [
   {
     id: 1,
-    title: "Aplikasi E-PPID Online",
+    title: "E-PPID Online",
     img: "./project1.png",
-    desc: "Aplikasi E-PPID Online mempermudah masyarakat dalam mengakses informasi publik secara transparan dan cepat."
+    desc: "The E-PPID Online application makes it easier for the public to access public information transparently and quickly."
   },
   {
     id: 2,
-    title: "Aplikasi Kerjasama",
+    title: "Application for Cooperations",
     img: "./project2.jpeg",
-    desc: 'Aplikasi ini dirancang untuk memfasilitasi proses pengajuan dan penerimaan kerjasama secara efisien. '
+    desc: 'This application is designed to facilitate the process of applying for and receiving cooperation efficiently.'
   },
   {
     id: 3,
     title: "Website Admin Portal",
     img: "./project3.png",
-    desc: 'Website Admin Portal adalah solusi komprehensif untuk manajemen administrasi yang lebih efektif.'
+    desc: 'Website Admin Portal is a comprehensive solution for more effective administration management.'
   },
   {
     id: 4,
-    title: "Aplikasi E-ARCHIEVE ONLINE",
+    title: "Aplication of E-ARCHIEVE ONLINE",
     img: "./project4.png",
-    desc: ' Aplikasi E-ARCHIEVE ONLINE menawarkan solusi digital untuk pengarsipan dokumen secara efisien.'
+    desc: ' The E-ARCHIEVE ONLINE application offers a digital solution for efficient document archiving.'
   },
   {
     id: 5,
     title: "Sistem Penerimaan Peserta Didik Baru Sekolah",
     img: "./project5.png",
-    desc:'Sistem ini dirancang khusus untuk memudahkan proses penerimaan peserta didik baru di Sekolah.'
+    desc:'This system is specifically designed to facilitate the process of accepting new students at the school.'
   },
 ]
 
