@@ -6,14 +6,14 @@ const experiences = [
     id: 1,
     company: 'PT. Sriwijaya Air Group',
     date: '2018 - 2022',
-    img: '/experience.jpg',
+    img: './experience.jpg',
     desc:'I worked as a customer service assistant in this company at least 3 years. I had to responsible to serve the passanger at the airport will to onboard to the aircraft.'
   },
   {
     id: 1,
     company: 'Freelancer Programmer',
     date: 'Now',
-    img: '/experience4.jpg',
+    img: './experience4.jpg',
     desc:'I worked as a freelancer to build the system web base. i lovely to do this, becouse it is my skill and passion'
   }
 ]
