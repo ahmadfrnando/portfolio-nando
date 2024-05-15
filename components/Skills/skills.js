@@ -45,7 +45,7 @@ export default function SkillSection() {
       <div data-aos="fade-right" className="grid items-center justify-center grid-cols-3 md:grid-cols-9 gap-6 py-10 md:mx-16" >
         {logo.map((item) => (
           <div key={item.title} className="w-full">
-            <Image src={item.link} width={100} height={100} alt={item.title}/>
+            <img src={item.link} width={100} height={100} alt={item.title}/>
           </div>
         ))}
       </div>
