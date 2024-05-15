@@ -56,7 +56,7 @@ export default function AboutSection() {
         <div data-aos="zoom-out">
           <div className="flex flex-col items-center justify-center px-4 md:px-40 mt-16 space-y-6">
             <h1 className="md:text-5xl text-4xl font-black ">EXPERIENCE WORK</h1>
-            <div className='grid grid-cols-2 gap-6'>
+            <div className='grid md:grid-cols-2 gap-6'>
               {experiences.map((experience) => (
               <div key={experience.id} class="relative flex flex-col mt-6 text-white bg-hitamkedua shadow-md bg-clip-border rounded-xl w-96">
                 <div class="relative object-cover mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
