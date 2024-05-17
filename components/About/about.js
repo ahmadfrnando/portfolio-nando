@@ -10,7 +10,7 @@ const experiences = [
     desc:'I worked as a customer service assistant in this company at least 3 years. I had to responsible to serve the passanger at the airport will to onboard to the aircraft.'
   },
   {
-    id: 1,
+    id: 2,
     company: 'Freelancer Programmer',
     date: 'Now',
     img: './experience4.jpg',
@@ -40,7 +40,7 @@ export default function AboutSection() {
             <li className="relative mb-6 sm:mb-0">
               <div className="flex items-center">
                 <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full bg-merah ">
-                  <span class="animate-ping absolute flex items-center justify-center w-6 h-6 rounded-full bg-orange opacity-75"></span>
+                  <span className="animate-ping absolute flex items-center justify-center w-6 h-6 rounded-full bg-orange opacity-75"></span>
                   <HiMiniAcademicCap className="w-4 h-4 text-black" />
                 </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
@@ -58,15 +58,15 @@ export default function AboutSection() {
             <h1 className="md:text-5xl text-4xl font-black ">EXPERIENCE WORK</h1>
             <div className='grid md:grid-cols-2 gap-6'>
               {experiences.map((experience) => (
-              <div key={experience.id} class="relative flex flex-col mt-6 text-white bg-hitamkedua shadow-md bg-clip-border rounded-xl w-96">
-                <div class="relative object-cover mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <div key={experience.id} className="relative cursor-pointer hover:bg-orange/80 transition-all flex flex-col mt-6 text-white bg-hitamkedua shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative object-cover mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={experience.img}
                   />
                 </div>
-                <div class="p-6">
-                  <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">{experience.company}</h5>
-                  <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                <div className="p-6">
+                  <h5 className="block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">{experience.company}</h5>
+                  <p className="block text-base antialiased font-light leading-relaxed text-inherit">
                     {experience.desc}
                   </p>
                 </div>

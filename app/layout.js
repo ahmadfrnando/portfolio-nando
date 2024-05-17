@@ -1,7 +1,12 @@
-import { Inter } from 'next/font/google';
+// import { Inter } from 'next/font/google';
+import localFont from 'next/font/local'
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
+const myFont = localFont({
+  src: './Type-Machine.ttf',
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'Portfolio',
@@ -14,7 +19,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/logonando.png" sizes="any" />
       </head>
-      <body className="bg-hitam font-sans">{children}</body>
+      <body className={`bg-hitam ${myFont.className}`}>{children}</body>
     </html>
   );
 }

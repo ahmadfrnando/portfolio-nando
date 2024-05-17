@@ -13,7 +13,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Website Admin Portal",
+    title: "Website Admin Portal IMAKOM",
     img: "./project3.png",
     desc: 'Website Admin Portal is a comprehensive solution for more effective administration management.'
   },
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     id: 5,
-    title: "Sistem Penerimaan Peserta Didik Baru Sekolah",
+    title: "Application of E-ADMISSION ONLINE",
     img: "./project5.png",
     desc:'This system is specifically designed to facilitate the process of accepting new students at the school.'
   },
