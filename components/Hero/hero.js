@@ -9,9 +9,10 @@ export default function HeroSection() {
   const filename = 'resume.pdf';
   return (
     <section id="home" className="px-6 max-w-screen">
-      <div data-aos="fade-up" className="grid mt-6  md:grid-cols-2 md:px-20 space-y-6 justify-center">
+      <div data-aos="fade-up" className="grid mt-6 grid-cols-1 lg:grid-cols-2 md:px-20 space-y-6 justify-center">
         <div className="flex bottom-0">
-          <img src={'./pp.png'} alt="Nando" width={1500} height={1200} />
+          <img src={'./pp.png'} alt="Nando" className='w-full' />
+          {/* <img src={'./pp.png'} alt="Nando" width={1500} height={1200} /> */}
         </div>
         <div className="flex items-center">
           <div className="space-y-4">

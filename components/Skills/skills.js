@@ -44,8 +44,8 @@ export default function SkillSection() {
     <section className='py-10 max-w-screen'>
       <div data-aos="fade-right" className="grid items-center justify-center grid-cols-3 md:grid-cols-9 gap-6 py-10 md:mx-16" >
         {logo.map((item) => (
-          <div key={item.title} className="w-full">
-            <img src={item.link} width={100} height={100} alt={item.title}/>
+          <div key={item.title} className="w-full cursor-pointer">
+            <img src={item.link} width={100} height={100} alt={item.title} className='hover:-translate-y-1 hover:scale-110 transition-all duration-200'/>
           </div>
         ))}
       </div>
