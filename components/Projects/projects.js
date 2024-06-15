@@ -42,6 +42,13 @@ const projects = [
     desc:'This application is designed to sell products online in an efficient way.',
     link: "https://ahmadfrnando.github.io/ecommerce/"
   },
+  {
+    id: 7,
+    title: "Neighborgood",
+    img: "./project7.png",
+    desc:'This application is designed to make profile company.',
+    link: "https://ahmadfrnando.github.io/landing-page/"
+  },
 ]
 
 export default function ProjectSection() {
