@@ -16,10 +16,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "Website Admin Portal IMAKOM",
+    title: "IMAKOM UNPAB",
     img: "./project3.png",
-    desc: 'Website Admin Portal is a comprehensive solution for more effective administration management.',
-    link: "#"
+    desc: 'I developed a profile website for IMAKOM UNPAB along with its admin portal.',
+    link: "https://imakomunpab.com/"
   },
   {
     id: 4,
@@ -48,6 +48,13 @@ const projects = [
     img: "./project7.png",
     desc:'This application is designed to make profile company.',
     link: "https://ahmadfrnando.github.io/landing-page/"
+  },
+  {
+    id: 8,
+    title: "Imunizations Online",
+    img: "./project8.png",
+    desc:'Streamlining vaccination records and appointments for efficient healthcare management.',
+    link: "#"
   },
 ]
 
